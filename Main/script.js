@@ -35,7 +35,7 @@ pass+= symbols[Math.floor(Math.random()*symbols.length)];
 //above will generate one capital letter, one lower case letter, one number and one symbol
 
 while(length>pass.length){
-pass+= all[Math.floor(Math.random()*all.length)];// remaining 8 characters of the password shall be picked from var all which includes all types.
+pass+= all[Math.floor(Math.random()*all.length)];
   
 }
 password=pass;
