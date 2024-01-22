@@ -32,11 +32,15 @@ pass+= lowerCase[Math.floor(Math.random()*lowerCase.length)];
 pass+= numbers[Math.floor(Math.random()*numbers.length)];
 pass+= symbols[Math.floor(Math.random()*symbols.length)];
 
+//above will generate one capital letter, one lower case letter, one number and one symbol
+
 while(length>pass.length){
-pass+= all[Math.floor(Math.random()*all.length)];
+pass+= all[Math.floor(Math.random()*all.length)];// remaining 8 characters of the password shall be picked from var all which includes all types.
   
 }
 password=pass;
+
+//used while loop to make sure password equal to the length specified is generated which in this case is 12. 
 
 // Write password to the #password input
 
@@ -46,6 +50,7 @@ var passwordText = document.querySelector("#password");
 passwordText.value = password;
 
 }
+
 //Add event listener to generate button
 
 generateBtn.addEventListener("click", writePassword);
