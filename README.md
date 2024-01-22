@@ -22,4 +22,8 @@
 
 ![image showing message generated when conditions to generate password are not met](<Assets/Images/message when no conditions are met.png>)
 
+## link to Github repository 
+https://github.com/Rubal103/Assignment-3-JavaScript-Challenge-Password-Generator
 
+## link to live website
+https://rubal103.github.io/Assignment-3-JavaScript-Challenge-Password-Generator/
