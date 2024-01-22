@@ -8,7 +8,8 @@
 * JavaScript
 
 ## Conditions used to generate password
-* Password must contain atlease one capital letter.
+* Password must contain atlease 8 and maximum 128 characters.
+* Password must contain atleast one capital letter.
 * Password must contain atleast one small letter.
 * Password must contain atleast one number.
 * Password must contain atleast one symbol.
